@@ -164,17 +164,21 @@ html:not(.dark) .theme-icon-moon {
 }
 
 /* ===== NAVBAR STATES ===== */
+#navbar {
+  border-bottom: 1px solid transparent;
+}
+
 .navbar-scrolled {
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom-color: rgba(0, 0, 0, 0.06);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
 }
 
 .dark .navbar-scrolled {
   background-color: rgba(15, 23, 42, 0.85);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom-color: rgba(255, 255, 255, 0.05);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
