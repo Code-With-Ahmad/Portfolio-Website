@@ -1,51 +1,51 @@
 // ===== SOCIAL LINKS =====
 const SOCIAL_LINKS = {
   github: {
-    url: 'https://github.com/Code-With-Ahmad',
+    url: 'https://github.com/arslanahmadiub',
     label: 'GitHub',
     icon: 'github',
   },
   linkedin: {
-    url: 'https://www.linkedin.com/in/muhammad-ahmad-1aq/',
+    url: 'https://www.linkedin.com/in/arslanahmadiub/',
     label: 'LinkedIn',
     icon: 'linkedin',
   },
   twitter: {
-    url: 'https://x.com/ahmadnaeem6277',
+    url: 'https://x.com/arslanahmadiub',
     label: 'X (Twitter)',
     icon: 'twitter',
   },
   email: {
-    url: 'mailto:devahmadofficial@gmail.com',
+    url: 'mailto:arslanahmadbwn@gmail.com',
     label: 'Email',
     icon: 'mail',
-    address: 'devahmadofficial@gmail.com',
+    address: 'arslanahmadbwn@gmail.com',
   },
   whatsapp: {
-    url: 'https://wa.me/923221008034',
+    url: 'https://wa.me/923166423843',
     label: 'Chat on WhatsApp',
   },
   phone: {
-    url: 'tel:+923221008034',
+    url: 'tel:+923166423843',
     label: 'Phone',
-    display: '+92 322 1008034',
+    display: '+92 316 6423843',
   },
 };
 
 // ===== PERSONAL INFO =====
 const PERSONAL_INFO = {
-  name: 'Ahmad',
-  role: 'Web Developer',
-  experience: '1.5+',
+  name: 'Arslan Ahmad',
+  role: 'Senior Full-Stack Engineer | Toptal Certified (Top 3%) | AWS Cloud Architect | React, Node.js & Serverless Expert.',
+  experience: '6+',
   heroDescription:
-    'Passionate web developer with experience in building scalable and user-friendly applications. Skilled in modern frontend technologies and focused on writing clean, efficient, and maintainable code.',
-  profileImage: 'assets/images/ahmad.png',
+    'Dynamic Full Stack Software Engineer with 6+ years of experience building scalable web applications. Skilled in developing robust, API-driven solutions, managing databases, and deploying efficient, high-performance systems. Experienced with modern tools, cloud services, and streamlined development workflows, with a strong focus on performance, user experience, and delivering reliable digital solutions.',
+  profileImage: 'assets/images/arslan.png',
   location: 'Lahore, Pakistan',
 };
 
 // ===== ABOUT STAT CARDS =====
 const ABOUT_STATS = [
-  { value: '1.5+', label: 'Years of Experience' },
+  { value: '6+', label: 'Years of Experience' },
   { value: '20+', label: 'Tech Stack' },
   { value: '100%', label: 'Client Satisfaction' },
   { value: '24/7', label: 'Dedicated Support' },
@@ -58,85 +58,70 @@ const SKILLS = [
     subtitle: 'UI & Client-Side',
     icon: 'layout',
     color: 'primary',
-    tags: ['JavaScript', 'React.js', 'Next.js', 'TypeScript', 'Redux Toolkit', 'Context API', 'Pug', 'Mono Repo'],
+    tags: ['JavaScript', 'React.js', 'Next.js', 'TypeScript', 'Redux Toolkit', 'HTML5' , 'CSS3' , 'Responsive Web Design' , 'WebSocket'],
   },
   {
     title: 'Backend & Cloud',
     subtitle: 'APIs & Infrastructure',
     icon: 'server',
     color: 'accent',
-    tags: ['Node.js', 'GraphQL', 'API Integration', 'AWS Amplify', 'AWS Subscription', 'AWS Lambda', 'Stripe', 'ORM' , "Payload CMS"],
+    tags: ['Node.js','Express.js', 'GraphQL', 'REST APIs','AWS Lambda', 'AWS S3' , 'API Gateway', 'AWS VPC' , 'AWS EC2' , 'AWS Amplify' , 'Google APIs' , 'Firebase', 'VPS ',  'DigitalOcean' , 'Microservices Architecture' , 'Authentication (JWT, OAuth)' , 'Web Security Best Practices' , 'Server Management'],
   },
   {
     title: 'Databases',
     subtitle: 'Storage & Queries',
     icon: 'database',
     color: 'purple-500',
-    tags: ['DynamoDB', 'PostgreSQL', 'SQL', 'MongoDB'],
+    tags: ['MongoDB','MySQL','PostgreSQL','DynamoDB','SQL'],
   },
   {
     title: 'DevOps & Tools',
     subtitle: 'Workflow & Automation',
     icon: 'wrench',
     color: 'emerald-500',
-    tags: ['Git', 'GitHub Actions', 'CloudWatch', 'Cursor AI', 'Prompt Engineering'],
+    tags: ['Git', 'GitHub' , 'GitHub Actions', 'CI/CD Pipelines', 'Docker', 'Nginx' , 'Linux/Unix' , 'Cloud Deployment' , 'Performance Optimization' , 'Agile Methodologies' , 'Scrum'],
   },
 ];
 
 // ===== EXPERIENCE =====
 const EXPERIENCE = [
   {
-    title: 'Web Developer',
+    title: 'Full-Stack Developer',
     company: 'Nextek Solutions',
-    location: 'Model Town, Lahore',
-    period: 'Feb 2025 — Apr 2026',
-    badge: 'Recent',
+    location: 'Model Town, Lahore , Pakistan',
+    period: 'Dec 2022 — Present',
+    badge: 'On-Site - Full-Time',
     color: 'primary',
     icon: 'building-2',
     points: [
-      '1+ year of professional experience in web development',
-      'Worked on real-world scalable applications including Medflow LLC',
-      'Contributed to feature development, performance optimization, and module enhancements',
-      'Collaborated with cross-functional teams to deliver high-quality solutions',
+      'Built a full-stack application using React, Node.js, and AWS Lambda with GraphQL DataStore, improving real-time data sync and user experience by 25%.',
+      'Implemented AWS Amplify and DynamoDB for a cost-efficient, secure backend, reducing infrastructure costs by 30% and enhancing billing transaction scalability'
     ],
   },
   {
-    title: 'Web Developer Trainee',
-    company: 'SeeBiz Pvt Ltd',
-    location: 'Jail Road, Lahore',
-    period: 'Aug 2024 — Dec 2024',
-    badge: 'Trainee',
-    color: 'accent',
-    icon: 'building-2',
-    points: [
-      'Trained in professional web development workflows and best practices',
-      'Gained hands-on experience with real-world projects and team collaboration',
-    ],
-  },
-  {
-    title: 'Web Developer Intern',
-    company: 'Delta Tech Solutions',
-    location: 'Zam Zam Mall , Baghbanpura , Lahore',
-    period: 'Mar 2024 — Jul 2024',
-    badge: 'Internship',
+    title: 'Full-Stack Developer',
+    company: 'Infostack Tech',
+    location: 'Lahore , Pakistan',
+    period: 'Dec 2021 — Dec 2022',
+    badge: 'On-Site - Full-Time',
     color: 'purple-400',
     icon: 'building-2',
     points: [
-      'Completed a 3-month internship focused on web development',
-      'Built and contributed to live projects under professional mentorship',
+      'Developed and implemented a new online billing flow for Crewmama, a US-based shoots service platform with 11K+ active users, using Node.js, React, and MySQL, improving transaction efficiency by 20%.',
+      'Acted as a full-stack engineer, resolving critical production issues and maintaining system reliability for Crewmama’s global services, leveraging Node.js for backend and React for frontend development.',
     ],
   },
   {
-    title: 'Web Development Bootcamp',
-    company: 'University of Engineering and Technology (UET), Lahore',
-    location: 'Singhpura, Lahore',
-    period: 'Jun 2023 — Aug 2023',
-    badge: 'Bootcamp',
+    title: 'Full-Stack Developer',
+    company: 'Spark AI',
+    location: 'Lahore , Pakistan',
+    period: 'May 2020 — Nov 2021',
+    badge: 'On-Site - Full-Time',
     color: 'sky-400',
     icon: 'landmark',
     points: [
-      'Completed an intensive 3-month web development bootcamp',
-      'Built foundational skills in HTML, CSS, JavaScript, and modern frameworks',
+      'Contributed to the full-stack development of Powrsale (app.powrsale.com), a social commerce escrow platform, using Node.js and React, enhancing secure transaction flows for online buyers and sellers.',
+      'Engineered GlobalHot20(globalhot20.com), a platform showcasing global trending videos,leveraging Node.js and MySQL to deliver real-time content updates forenhanced user engagement.',
     ],
   },
 ];
@@ -144,32 +129,14 @@ const EXPERIENCE = [
 // ===== EDUCATION =====
 const EDUCATION = [
   {
-    institution: 'Gomal University',
-    degree: "Bachelor's Degree (BSCS)",
-    period: 'Sept 2022 — Sept 2026',
-    badgeText: 'Graduating 2026',
-    badgeId: 'grad-status',
+    institution: 'Islamia University of Bahawalpur',
+    degree: "BS Computer Science",
+    period: 'Feb 2016 — Feb 2020',
+    badgeText: 'Graduated',
+    badgeId: 'grad',
     color: 'accent',
     icon: 'graduation-cap',
     cgpa: '3.5',
-  },
-  {
-    institution: 'Apex College',
-    degree: 'Intermediate in Computer Science (ICS)',
-    period: '2020 — 2022',
-    badgeText: 'Completed',
-    color: 'primary',
-    icon: 'book-open',
-    location: 'Daroghawala, Lahore',
-  },
-  {
-    institution: 'Dar-e-Arqam School',
-    degree: 'Matriculation',
-    period: '2008 — 2020',
-    badgeText: 'Completed',
-    color: 'gray',
-    icon: 'school',
-    location: 'SalamatPura, Lahore',
   },
 ];
 
@@ -194,8 +161,8 @@ const PROJECTS = [
           'Handles report generation and real-time data processing',
           'Built feature modules and performance optimizations',
         ],
-        link: 'https://www.portal.medflowllc.com/',
-        linkText: 'Visit Alpha Portal',
+        // link: 'https://www.portal.medflowllc.com/',
+        // linkText: 'Visit Alpha Portal',
       },
       {
         name: 'MedFlow Omega',
@@ -207,8 +174,8 @@ const PROJECTS = [
           'Handles invoicing, claims, and payment tracking',
           'Contributed to module enhancements and UI improvements',
         ],
-        link: 'https://www.colab.medflowllc.com/',
-        linkText: 'Visit Omega Portal',
+        // link: 'https://www.colab.medflowllc.com/',
+        // linkText: 'Visit Omega Portal',
       },
     ],
     techStack: ['React.js', 'GraphQL', 'AWS Amplify', 'AWS Lambda', 'DynamoDB', 'CloudWatch'],

@@ -151,11 +151,11 @@ document.addEventListener('DOMContentLoaded', () => {
                   ${pt}
                 </li>`).join('')}
             </ul>
-            <a href="${mod.link}" target="_blank" rel="noopener noreferrer"
+            ${mod.link ? `<a href="${mod.link}" target="_blank" rel="noopener noreferrer"
               class="inline-flex items-center gap-1.5 text-xs font-medium text-${mod.color} hover:text-primary transition-colors">
               <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
               ${mod.linkText}
-            </a>
+            </a>` : ''}
           </div>`).join('');
 
         return `
