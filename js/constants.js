@@ -37,6 +37,7 @@ const PERSONAL_INFO = {
   name: 'Ahmad',
   role: 'Web Developer',
   experience: '1.5+',
+  cvPath: 'assets/Muhammad-Ahmad-Resume-Web-Dev (2).pdf',
   heroDescription:
     'Passionate web developer with experience in building scalable and user-friendly applications. Skilled in modern frontend technologies and focused on writing clean, efficient, and maintainable code.',
   profileImage: 'assets/images/ahmad.png',

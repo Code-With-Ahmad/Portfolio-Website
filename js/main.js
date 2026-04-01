@@ -57,6 +57,16 @@ document.addEventListener('DOMContentLoaded', () => {
     heroImage.alt = `${PERSONAL_INFO.name} — ${PERSONAL_INFO.role}`;
   }
 
+  const cvButtons = [
+    document.getElementById('download-cv-btn'),
+    document.getElementById('download-cv-btn-mobile'),
+  ];
+  cvButtons.forEach(btn => {
+    if (!btn || !PERSONAL_INFO.cvPath) return;
+    btn.href = PERSONAL_INFO.cvPath;
+    btn.setAttribute('download', 'Ahmad-CV.pdf');
+  });
+
   document.querySelectorAll('.brand-name').forEach(el => {
     el.textContent = PERSONAL_INFO.name;
   });
