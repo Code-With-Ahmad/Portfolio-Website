@@ -37,6 +37,7 @@ const PERSONAL_INFO = {
   name: 'Arslan Ahmad',
   role: 'Senior Full-Stack Engineer | Toptal Certified (Top 3%) | AWS Cloud Architect | React, Node.js & Serverless Expert.',
   experience: '6+',
+   cvPath: 'assets/ArslanAhmadResume.pdf',
   heroDescription:
     'Dynamic Full Stack Software Engineer with 6+ years of experience building scalable web applications. Skilled in developing robust, API-driven solutions, managing databases, and deploying efficient, high-performance systems. Experienced with modern tools, cloud services, and streamlined development workflows, with a strong focus on performance, user experience, and delivering reliable digital solutions.',
   profileImage: 'assets/images/arslan.png',
