@@ -6,53 +6,47 @@ const SOCIAL_LINKS = {
     icon: 'github',
   },
   linkedin: {
-    url: 'https://www.linkedin.com/in/muhammad-ahmad-1aq/',
+    url: 'https://www.linkedin.com/in/israr-ul-haq-a395b9197',
     label: 'LinkedIn',
     icon: 'linkedin',
   },
-  twitter: {
-    url: 'https://x.com/ahmadnaeem6277',
-    label: 'X (Twitter)',
-    icon: 'twitter',
-  },
   email: {
-    url: 'mailto:devahmadofficial@gmail.com',
+    url: 'mailto:israrulhaq764@gmail.com',
     label: 'Email',
     icon: 'mail',
-    address: 'devahmadofficial@gmail.com',
+    address: 'israrulhaq764@gmail.com',
   },
   whatsapp: {
-    url: 'https://wa.me/923221008034',
+    url: 'https://wa.me/923134696144',
     label: 'Chat on WhatsApp',
   },
   phone: {
-    url: 'tel:+923221008034',
+    url: 'tel:+923134696144',
     label: 'Phone',
-    display: '+92 322 1008034',
+    display: '+92 313 4696144',
   },
 };
 
 // ===== PERSONAL INFO =====
 const PERSONAL_INFO = {
-  name: 'Ahmad',
-  role: 'Web Developer',
-  experience: '1.5+',
-  cvPath: 'assets/Muhammad-Ahmad-Resume-Web-Dev (2).pdf',
+  name: 'Israr Ul Haq',
+  role: 'MERN Stack Developer',
+  experience: '6+',
+  cvPath: 'assets/Israr ul Haq _ Resume.pdf',
   heroDescription:
-    'Passionate web developer with experience in building scalable and user-friendly applications. Skilled in modern frontend technologies and focused on writing clean, efficient, and maintainable code.',
-  profileImage: 'assets/images/ahmad.png',
+    'Israr is a results-driven senior full-stack developer with strong experience in building scalable platforms and cloud-based solutions. He has led teams and delivered high-performance applications serving thousands of users, from real-time systems to complex web platforms. Known for solving challenging technical problems, Israr turns innovative ideas into reliable, production-ready products.',
+  profileImage: 'assets/images/israr.jpg',
   location: 'Lahore, Pakistan',
-  topTalLink:"",
+  topTalLink:"https://www.toptal.com/developers/resume/israr-ul-haq",
 };
 
 // ===== ABOUT STAT CARDS =====
 const ABOUT_STATS = [
-  { value: '1.5+', label: 'Years of Experience' },
-  { value: '20+', label: 'Tech Stack' },
-  { value: '100%', label: 'Client Satisfaction' },
-  { value: '24/7', label: 'Dedicated Support' },
+  { value: '6+', label: 'Years Experience' },
+  { value: '20+', label: 'Technologies Mastered' },
+  { value: '5+', label: 'Products Launched' },
+  { value: '100%', label: 'Production-Grade Code' },
 ];
-
 // ===== SKILLS =====
 const SKILLS = [
   {
@@ -60,85 +54,119 @@ const SKILLS = [
     subtitle: 'UI & Client-Side',
     icon: 'layout',
     color: 'primary',
-    tags: ['JavaScript', 'React.js', 'Next.js', 'TypeScript', 'Redux Toolkit', 'Context API', 'Pug', 'Mono Repo'],
+    tags: [
+      'JavaScript',
+      'TypeScript',
+      'React.js',
+      'Next.js',
+      'Redux',
+      'React Native',
+      'Tailwind CSS',
+      'Atomic Design',
+      'SVG Animations',
+      'PWA',
+    ],
   },
   {
     title: 'Backend & Cloud',
     subtitle: 'APIs & Infrastructure',
     icon: 'server',
     color: 'accent',
-    tags: ['Node.js', 'GraphQL', 'API Integration', 'AWS Amplify', 'AWS Subscription', 'AWS Lambda', 'Stripe', 'ORM' , "Payload CMS"],
+    tags: [
+      'Node.js',
+      'Express.js',
+      'AdonisJS',
+      'GraphQL',
+      'REST APIs',
+      'AWS Lambda',
+      'API Gateway',
+      'EventBridge',
+      'SQS',
+      'Webhooks',
+      'Stripe',
+    ],
   },
   {
     title: 'Databases',
-    subtitle: 'Storage & Queries',
+    subtitle: 'Storage & Data Management',
     icon: 'database',
     color: 'purple-500',
-    tags: ['DynamoDB', 'PostgreSQL', 'SQL', 'MongoDB'],
+    tags: [
+      'PostgreSQL',
+      'DynamoDB',
+      'MongoDB',
+      'SQL',
+    ],
   },
   {
     title: 'DevOps & Tools',
-    subtitle: 'Workflow & Automation',
+    subtitle: 'Workflow & Testing',
     icon: 'wrench',
     color: 'emerald-500',
-    tags: ['Git', 'GitHub Actions', 'CloudWatch', 'Cursor AI', 'Prompt Engineering'],
+    tags: [
+      'AWS (EC2, S3, Amplify, ECS)',
+      'Firebase',
+      'CloudWatch',
+      'CI/CD',
+      'Git',
+      'Playwright',
+      'Cypress',
+      'Jest',
+    ],
+  },
+  {
+    title: 'AI & Automation',
+    subtitle: 'Emerging Tools',
+    icon: 'sparkles',
+    color: 'accent',
+    tags: [
+      'n8n',
+      'OpenClaw',
+      'Claude Code',
+      'Workflow Automation',
+    ],
   },
 ];
-
 // ===== EXPERIENCE =====
 const EXPERIENCE = [
   {
-    title: 'Web Developer',
+    title: 'Senior Software Engineer',
     company: 'Nextek Solutions',
     location: 'Model Town, Lahore',
-    period: 'Feb 2025 — Apr 2026',
-    badge: 'Recent',
+    period: 'Apr 2025 — Apr 2026',
+    badge: 'On-Site Full-Time',
     color: 'primary',
     icon: 'building-2',
     points: [
-      '1+ year of professional experience in web development',
-      'Worked on real-world scalable applications including Medflow LLC',
-      'Contributed to feature development, performance optimization, and module enhancements',
-      'Collaborated with cross-functional teams to deliver high-quality solutions',
+      'Developed a scalable white-label healthcare platform using React.js, Redux, and AWS Lambda to support diagnostics and lab management workflows across multiple clients.',
+      'Ensured system reliability by implementing end-to-end testing with Playwright for critical user journeys and reporting processes.'
     ],
   },
+
   {
-    title: 'Web Developer Trainee',
-    company: 'SeeBiz Pvt Ltd',
-    location: 'Jail Road, Lahore',
-    period: 'Aug 2024 — Dec 2024',
-    badge: 'Trainee',
-    color: 'accent',
-    icon: 'building-2',
-    points: [
-      'Trained in professional web development workflows and best practices',
-      'Gained hands-on experience with real-world projects and team collaboration',
-    ],
-  },
-  {
-    title: 'Web Developer Intern',
-    company: 'Delta Tech Solutions',
-    location: 'Zam Zam Mall , Baghbanpura , Lahore',
-    period: 'Mar 2024 — Jul 2024',
-    badge: 'Internship',
+    title: 'Software Engineer',
+    company: 'JinnByte',
+    location: 'Lahore , Pakistan',
+    period: 'Jan 2022 — Mar 2025',
+    badge: 'On-Site Full-Time',
     color: 'purple-400',
     icon: 'building-2',
     points: [
-      'Completed a 3-month internship focused on web development',
-      'Built and contributed to live projects under professional mentorship',
+      'Built and enhanced multiple marketplace and gaming platforms by integrating real-time features, secure payment systems, and scalable UI architectures, significantly improving user experience and customization.',
+      'Optimized operational efficiency through automation, reusable design systems, and progressive web technologies, reducing development and hiring time while increasing user trust and platform performance.',
     ],
   },
   {
-    title: 'Web Development Bootcamp',
-    company: 'University of Engineering and Technology (UET), Lahore',
-    location: 'Singhpura, Lahore',
-    period: 'Jun 2023 — Aug 2023',
-    badge: 'Bootcamp',
+    title: 'Associate Software Engineer',
+    company: 'Status200',
+    location: 'Lahore , Pakistan',
+    period: 'Jun 2020 — Dec 2021',
+    badge: 'On-Site Full-Time',
     color: 'sky-400',
     icon: 'landmark',
     points: [
-      'Completed an intensive 3-month web development bootcamp',
-      'Built foundational skills in HTML, CSS, JavaScript, and modern frameworks',
+      'I created a modern and creative-looking website design for the photographer and designer',
+      'I  catered for the image sizes to ensure a fast-loading website placing emphasis on performance and user experience',
     ],
   },
 ];
@@ -146,87 +174,94 @@ const EXPERIENCE = [
 // ===== EDUCATION =====
 const EDUCATION = [
   {
-    institution: 'Gomal University',
-    degree: "Bachelor's Degree (BSCS)",
-    period: 'Sept 2022 — Sept 2026',
-    badgeText: 'Graduating 2026',
-    badgeId: 'grad-status',
+    institution: 'National College of Business Administration & Economics (NCBA&E), Lahore',
+    degree: "Bachelor of Science in Computer Science",
+    period: 'Aug 2016 — June 2020',
+    badgeText: 'Graduated',
+    badgeId: 'grad',
     color: 'accent',
     icon: 'graduation-cap',
-    cgpa: '3.5',
+    cgpa: '3.67',
   },
-  {
-    institution: 'Apex College',
-    degree: 'Intermediate in Computer Science (ICS)',
-    period: '2020 — 2022',
-    badgeText: 'Completed',
-    color: 'primary',
-    icon: 'book-open',
-    location: 'Daroghawala, Lahore',
-  },
-  {
-    institution: 'Dar-e-Arqam School',
-    degree: 'Matriculation',
-    period: '2008 — 2020',
-    badgeText: 'Completed',
-    color: 'gray',
-    icon: 'school',
-    location: 'SalamatPura, Lahore',
-  },
+
 ];
 
 // ===== PROJECTS =====
 const PROJECTS = [
   {
-    title: 'Medflow LLC',
+    title: 'MedFlow LLC',
     icon: 'heart-pulse',
     featured: true,
     tags: ['Healthcare', 'Laboratory'],
     tagColors: ['primary', 'accent'],
     description:
-      'A comprehensive Laboratory Management System for the healthcare industry. The platform is split into two core modules — <span class="text-gray-900 dark:text-white font-medium">Alpha (LIS)</span> and <span class="text-gray-900 dark:text-white font-medium">Omega (Billing)</span> — that together handle the full lifecycle from patient testing to revenue management.',
-    modules: [
-      {
-        name: 'MedFlow Alpha (LIS)',
-        subtitle: 'Laboratory Information System',
-        icon: 'flask-conical',
-        color: 'primary',
-        points: [
-          'Manages patient records, test orders, and lab results',
-          'Handles report generation and real-time data processing',
-          'Built feature modules and performance optimizations',
-        ],
-        // link: 'https://www.portal.medflowllc.com/',
-        // linkText: 'Visit Alpha Portal',
-      },
-      {
-        name: 'MedFlow Omega',
-        subtitle: 'Billing & Revenue Management',
-        icon: 'receipt',
-        color: 'accent',
-        points: [
-          'Manages billing workflows and revenue cycle',
-          'Handles invoicing, claims, and payment tracking',
-          'Contributed to module enhancements and UI improvements',
-        ],
-        // link: 'https://www.colab.medflowllc.com/',
-        // linkText: 'Visit Omega Portal',
-      },
+      'A large-scale white-label healthcare platform used by labs and hospitals to manage diagnostics and reporting, enabling scalable and customizable solutions for multiple clients.',
+    points: [
+      'Built a white-label lab management system using React.js, Redux, and AWS Lambda',
+      'Designed scalable architecture to support diagnostics and reporting workflows',
+      'Implemented end-to-end testing with Playwright for critical workflows',
     ],
-    techStack: ['React.js', 'GraphQL', 'AWS Amplify', 'AWS Lambda', 'DynamoDB', 'CloudWatch'],
+    techStack: ['React.js', 'Redux', 'AWS Lambda', 'Playwright'],
   },
   {
-    title: 'Ecommerce Platform',
-    icon: 'shopping-cart',
-    featured: false,
-    tags: ['E-Commerce'],
-    tagColors: ['accent'],
+    title: 'Sparrow',
+    icon: 'briefcase',
+    featured: true,
+    tags: ['Marketplace', 'Freelance'],
+    tagColors: ['primary', 'accent'],
+    description:
+      'A US-based work marketplace that connects users with vetted professionals for daily tasks, focusing on trust and efficiency.',
     points: [
-      'Built a modern eCommerce UI with responsive design',
-      'Implemented cart, authentication, and product management',
-      'Integrated APIs and improved user experience',
+      'Integrated in-app chat and profile verification systems',
+      'Automated freelancer profile review, reducing hiring time by 40%',
+      'Improved user trust by 60% through vetted profile mechanisms',
     ],
-    techStack: ['Next.js', 'Stripe', 'Node.js', 'MongoDB'],
+    techStack: ['React.js', 'Node.js', 'Real-time Systems'],
+  },
+  {
+    title: 'Dopewarz',
+    icon: 'gamepad-2',
+    featured: false,
+    tags: ['NFT', 'Gaming'],
+    tagColors: ['accent'],
+    description:
+      'An NFT-based gaming platform where users compete and trade rare digital collectibles with enhanced customization features.',
+    points: [
+      'Integrated SVG-based dynamic elements for real-time asset updates',
+      'Enhanced in-game customization and interactivity',
+      'Applied atomic design principles, reducing development time by 25%',
+    ],
+    techStack: ['React.js', 'SVG', 'Web3', 'Atomic Design'],
+  },
+  {
+    title: 'El Ropera',
+    icon: 'gavel',
+    featured: false,
+    tags: ['Marketplace', 'Bidding'],
+    tagColors: ['primary'],
+    description:
+      'A Bolivia-based bidding marketplace enabling users to trade items efficiently with fast and secure payment systems.',
+    points: [
+      'Integrated QR-based payments via Banco Nacional de Bolivia',
+      'Improved payment processing speed by 30%',
+      'Delivered PWA solution, reducing mobile app delivery time by 200%',
+    ],
+    techStack: ['PWA', 'React.js', 'QR Payments'],
+  },
+  {
+    title: 'David Ellis Portfolio',
+    icon: 'camera',
+    featured: false,
+    tags: ['Portfolio', 'Design'],
+    tagColors: ['accent'],
+    description:
+      'A modern portfolio website for a photographer and designer, focused on visual appeal and performance optimization.',
+    points: [
+      'Designed a modern and creative portfolio UI',
+      'Optimized image handling for fast loading performance',
+      'Improved overall user experience and responsiveness',
+    ],
+    techStack: ['HTML', 'CSS', 'JavaScript'],
   },
 ];
 

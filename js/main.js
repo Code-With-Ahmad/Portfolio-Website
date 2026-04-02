@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ===== Render Social Links =====
-  const mainSocials = ['github', 'linkedin', 'twitter', 'email'];
+  const mainSocials = ['github', 'linkedin', 'email'];
 
   function renderSocialLinks(containerId, linkClass, iconSize) {
     const container = document.getElementById(containerId);
