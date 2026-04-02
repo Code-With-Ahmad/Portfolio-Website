@@ -95,7 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
   cvButtons.forEach(btn => {
     if (!btn || !PERSONAL_INFO.cvPath) return;
     btn.href = PERSONAL_INFO.cvPath;
-    btn.setAttribute('download', 'Resume.pdf');
+    btn.target = '_blank';
+    btn.rel = 'noopener noreferrer';
+    btn.removeAttribute('download');
   });
 
   document.querySelectorAll('.brand-name').forEach(el => {
