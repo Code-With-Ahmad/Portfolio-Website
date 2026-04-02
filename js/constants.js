@@ -41,6 +41,7 @@ const PERSONAL_INFO = {
     'Dynamic Full Stack Software Engineer with 6+ years of experience building scalable web applications. Skilled in developing robust, API-driven solutions, managing databases, and deploying efficient, high-performance systems. Experienced with modern tools, cloud services, and streamlined development workflows, with a strong focus on performance, user experience, and delivering reliable digital solutions.',
   profileImage: 'assets/images/arslan.png',
   location: 'Lahore, Pakistan',
+  topTalLink:"https://www.toptal.com/resume/internal/6029607",
 };
 
 // ===== ABOUT STAT CARDS =====
