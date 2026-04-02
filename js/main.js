@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   cvButtons.forEach(btn => {
     if (!btn || !PERSONAL_INFO.cvPath) return;
     btn.href = PERSONAL_INFO.cvPath;
-    btn.setAttribute('download', 'Ahmad-CV.pdf');
+    btn.setAttribute('download', 'Resume.pdf');
   });
 
   document.querySelectorAll('.brand-name').forEach(el => {
