@@ -48,13 +48,44 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroRole = document.getElementById('hero-role');
   const heroDesc = document.getElementById('hero-description');
   const heroImage = document.getElementById('hero-image');
+  const heroTopTalLink = document.getElementById('hero-toptal-link');
 
   if (heroName) heroName.textContent = PERSONAL_INFO.name;
   if (heroRole) heroRole.textContent = PERSONAL_INFO.role;
   if (heroDesc) heroDesc.textContent = PERSONAL_INFO.heroDescription;
   if (heroImage) {
+    const heroImageContainer = heroImage.parentElement;
+    const heroFallbackLetter = (PERSONAL_INFO.name || 'A').charAt(0).toUpperCase();
+
+    const showHeroFallback = () => {
+      if (!heroImageContainer || heroImageContainer.querySelector('.hero-image-fallback')) return;
+      heroImage.remove();
+      heroImageContainer.innerHTML = `
+        <div class="hero-image-fallback w-full h-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-6xl sm:text-7xl lg:text-8xl font-bold text-white">${heroFallbackLetter}</div>
+      `;
+    };
+
+    heroImage.onerror = showHeroFallback;
+    heroImage.onload = () => {
+      heroImage.classList.remove('hidden');
+    };
+
     heroImage.src = PERSONAL_INFO.profileImage;
     heroImage.alt = `${PERSONAL_INFO.name} — ${PERSONAL_INFO.role}`;
+  }
+
+  if (heroTopTalLink) {
+    const topTalLink = typeof PERSONAL_INFO.topTalLink === 'string'
+      ? PERSONAL_INFO.topTalLink.trim()
+      : '';
+
+    if (topTalLink) {
+      heroTopTalLink.href = topTalLink;
+      heroTopTalLink.classList.remove('hidden');
+    } else {
+      heroTopTalLink.removeAttribute('href');
+      heroTopTalLink.classList.add('hidden');
+    }
   }
 
   const cvButtons = [

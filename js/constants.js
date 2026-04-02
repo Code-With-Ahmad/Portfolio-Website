@@ -42,6 +42,7 @@ const PERSONAL_INFO = {
     'Passionate web developer with experience in building scalable and user-friendly applications. Skilled in modern frontend technologies and focused on writing clean, efficient, and maintainable code.',
   profileImage: 'assets/images/ahmad.png',
   location: 'Lahore, Pakistan',
+  topTalLink:"",
 };
 
 // ===== ABOUT STAT CARDS =====
