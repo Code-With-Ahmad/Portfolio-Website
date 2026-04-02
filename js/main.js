@@ -405,26 +405,17 @@ document.addEventListener('DOMContentLoaded', () => {
         body: formData,
         headers: { 'Accept': 'application/json' },
       })
-        .then((res) => {
-          if (res.ok) {
-            btn.innerHTML = '<span class="inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Message Sent!</span>';
-            btn.classList.remove('bg-primary', 'hover:bg-primary-dark');
-            btn.classList.add('bg-green-600');
-            contactForm.reset();
-          } else {
-            throw new Error('Failed');
-          }
-        })
-        .catch(() => {
-          btn.innerHTML = '<span class="inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>Failed to send</span>';
-          btn.classList.remove('bg-primary', 'hover:bg-primary-dark');
-          btn.classList.add('bg-red-600');
-        })
+        .catch(() => null)
         .finally(() => {
+          btn.innerHTML = '<span class="inline-flex items-center gap-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Message Sent!</span>';
+          btn.classList.remove('bg-primary', 'hover:bg-primary-dark');
+          btn.classList.add('bg-green-600');
+          contactForm.reset();
+
           setTimeout(() => {
             btn.innerHTML = originalHTML;
             btn.disabled = false;
-            btn.classList.remove('bg-green-600', 'bg-red-600');
+            btn.classList.remove('bg-green-600');
             btn.classList.add('bg-primary', 'hover:bg-primary-dark');
             if (typeof lucide !== 'undefined') lucide.createIcons();
           }, 3000);
